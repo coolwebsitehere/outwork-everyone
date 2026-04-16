@@ -1,22 +1,31 @@
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Outwork Everyone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-    html, body {
-        height: 100%;
-    }
+        body {
+            height: 100vh;
+            background: black;
 
-    body {
-        background: black;
-        display: flex;
-        justify-content: center;  /* centre horizontally */
-        align-items: center;      /* centre vertically */
-    }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    img {
-        width: 30vw;   /* 30% of screen width */
-        height: auto;  /* keeps aspect ratio */
-    }
-</style>
+        img {
+            width: 30%;      /* THIS is the key change */
+            max-width: 400px; /* optional: stops it getting too big */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="image.jpg" alt="Outwork Everyone">
+</body>
+</html>
